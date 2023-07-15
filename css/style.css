@@ -1,0 +1,241 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.7em;
+
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'PT Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/* header section css code start here */
+.header{
+    width: 100%;
+    padding: 30px 0px;
+    background: #fcdb00;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    line-height: 1.7em;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #000;
+    transition: 1s;
+    margin: 0px 80px 0px 0px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+   
+    color: #B87333;
+   
+}
+.navbar .navbar-nav .nav-item .nav-link:focus{
+   
+    color: #B87333;
+   
+}
+/* header section css code start here */
+/* banner section css code start here */
+.banner{
+    width: 100%;
+    padding: 30px 0px ;
+}
+.banner .banner-text{
+    margin: 70px 0px;
+    text-align: left;
+}
+.banner .banner-text h1{
+    
+    font-size: 47px;
+    line-height: 1.7em;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+.banner .banner-text h4{
+    
+    font-size: 33px;
+    line-height: 1.2em;
+    font-weight: 500;
+
+}
+.banner .banner-text p{
+    
+    font-size: 20px;
+    line-height: 1.2em;
+    font-weight: 400;
+
+}
+.banner .banner-img{
+    
+    margin: 0px 150px 20px;
+
+}
+/* banner section css code start here */
+
+/* feature section css code start here */
+.feature{
+    width: 100%;
+    padding:80px 0px;
+}
+.feature .features-text{
+   text-align: center;
+}
+.feature .features-text h1{
+    font-size: 47px;
+    line-height: 1.7em;
+    font-weight: 600;
+    text-transform: capitalize;
+ }
+ .feature .features-text p{
+    font-size: 20px;
+    line-height: 1.2em;
+    font-weight: 400;
+ }
+ .feature-item{
+   width: 100%;
+   padding: 80px 0px;
+ }
+ .feature-item .feature-item1{
+
+    display: flex;
+   
+    padding: 20px 19px;
+ }
+ .feature-item .feature-item1 .icon{
+    flex-basis: 10%;
+    margin-top: 10px;
+
+ }
+ .feature-item .feature-item1 .icon .fa{
+    font-size: 70px;
+    color: #e0e;
+
+ }
+ .feature-item .feature-item1 .content{
+   flex-basis: 90%;
+   margin-left: 15px;
+ }
+ .feature-item .feature-item1 .content h1{
+    font-size: 34px;
+    line-height: 1.7em;
+    font-weight: 600;
+    text-transform: capitalize;
+ }
+ .feature-item .feature-item1 .content p{
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 400;
+ }
+/* feature section css code end here */
+/* in-touch section css code strt here */
+.in-touch{
+    width: 100%;
+    padding: 80px 0px;
+    background: #010101;
+}
+.in-touch h1{
+    font-size: 34px;
+    line-height: 1.7em;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+}
+.in-touch p{
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    color: #6a6a6a;
+}
+.in-touch .search-box{
+    width: 90%;
+    padding: 36px 0px;
+    margin: 0px 288px 0px;
+
+}
+.in-touch .btn{
+    width: 50%;
+    margin: 14.5px 0px 0px 90px;
+}
+.in-touch .btn-warning{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #000;
+    transition: 1s;
+}
+.in-touch .btn-warning:hover{
+
+    color: #fff;
+    background-color: #fcdb00;
+}
+.in-touch .social-icon{
+    text-align: center;
+
+}
+.in-touch .social-icon ul li{
+    list-style: none;
+    display: inline-block;
+    
+   
+}
+.in-touch .social-icon ul li a{
+    font-size: 56px;
+    margin-right: 20px;
+    color: #fcdb00;
+    text-align: center;
+}
+.in-touch .tesxt1{
+    width: 100%;
+    padding: 80px 0px;
+}
+.in-touch .tesxt1 ul li{
+    list-style: none;
+    display: block;
+    
+   
+}
+.in-touch .tesxt1 ul li a{
+    font-size: 17px;
+    margin-right: 20px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* in-touch section css code end here */
+
+
+
+
+/* footer section css code start here */
+
+
+.footer{
+    width: 100%;
+    padding: 10px 0px;
+}
+.footer{
+    width: 100%;
+    padding: 10px 0px;
+    background: #e0e;
+}
+
+.footer .footer-copyright-text p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+
+    
+/* footer section css code end here */
